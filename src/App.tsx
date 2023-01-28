@@ -1,11 +1,13 @@
-import Hero from "./components/Hero";
-import Second from "./components/Second";
+import Hero from "./pages/Hero";
+import SecondSection from "./pages/SecondSection";
+import ThirdSection from "./pages/ThirdSection";
 
 function App() {
   return (
     <div className="mb-32">
       <Hero />
-      <Second />
+      <SecondSection />
+      <ThirdSection />
     </div>
   );
 }

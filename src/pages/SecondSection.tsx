@@ -1,5 +1,4 @@
 import React from "react";
-import "./Second.css";
 //
 interface SecondProps {}
 
