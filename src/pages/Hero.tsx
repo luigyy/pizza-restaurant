@@ -5,9 +5,10 @@ interface HeroProps {}
 
 const Hero: React.FC<HeroProps> = ({}) => {
   return (
-    <div className="bg-white h-[115vh]  ">
+    <div className="bg-white h-[110vh]  ">
       <Navbar />
-      <h1 className="text-zinc-900 font-[Gazeta] text-[175px] py-[26vh]  text-center  tracking-[0.3em] ml-16 ">
+      <img src="fork.png" alt="" className="absolute w-[500px] right-[32%] " />
+      <h1 className="text-zinc-900 font-[Gazeta]  text-[175px] py-[26vh]  text-center  tracking-[0.3em]  ">
         PASTA
       </h1>
     </div>
