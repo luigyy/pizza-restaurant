@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Gazeta';
+    src: local('Gazeta Regular'), local('Gazeta-Regular'),
+        url('GazetaRegular.woff2') format('woff2'),
+        url('GazetaRegular.woff') format('woff'),
+        url('GazetaRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
