@@ -4,6 +4,7 @@ import ThirdSection from "./pages/ThirdSection";
 import ForthSection from "./pages/ForthSection";
 import FifthSection from "./pages/FifthSection";
 import MenuSection from "./pages/MenuSection";
+import PlaceDescription from "./pages/PlaceDescription";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ForthSection />
       <FifthSection />
       <MenuSection />
+      <PlaceDescription />
     </div>
   );
 }
