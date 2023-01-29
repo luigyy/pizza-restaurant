@@ -4,10 +4,10 @@ interface FifthSectionProps {}
 
 const FifthSection: React.FC<FifthSectionProps> = ({}) => {
   return (
-    <div className="min-h-screen ">
+    <div className=" ">
       {/* title  */}
-      <div className="w-full h-[50vh] border-2">
-        <h1 className="w-1/2 mx-auto text-center pt-28 text-zinc-800/95 text-5xl font-medium font-[Gazeta]">
+      <div className="w-full h-[50vh]">
+        <h1 className="w-1/2 mx-auto text-center pt-24 text-zinc-800/95 text-5xl font-medium font-[Gazeta]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
           quas.
         </h1>

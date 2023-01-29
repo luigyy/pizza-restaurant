@@ -7,7 +7,7 @@ const Second: React.FC<SecondProps> = ({}) => {
     <div className="h-[80vh] w-full  bg-[#363e26] flex">
       {/* left div  */}
       <div className="h-full w-1/2 font-display">
-        <h1 className="max-w-[70%] text-3xl font-semibold text-[#f8f7f7]/90 tracking-wide font-[Gazeta] px-20 pt-20">
+        <h1 className="max-w-[70%] text-3xl font-extrabold text-[#f8f7f7]/90 tracking-wide font-[Gazeta] px-20 pt-20">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </h1>
         <p className="px-20  max-w-[70%] pt-6 text-[#f8f7f7]/70">
