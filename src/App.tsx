@@ -5,10 +5,12 @@ import ForthSection from "./pages/ForthSection";
 import FifthSection from "./pages/FifthSection";
 import MenuSection from "./pages/MenuSection";
 import PlaceDescription from "./pages/PlaceDescription";
+import ReservationForm from "./pages/ReservationForm";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="mb-32 overflow-x-hidden">
+    <div className=" overflow-x-hidden">
       <Hero />
       <SecondSection />
       <ThirdSection />
@@ -16,6 +18,8 @@ function App() {
       <FifthSection />
       <MenuSection />
       <PlaceDescription />
+      <ReservationForm />
+      <Footer />
     </div>
   );
 }

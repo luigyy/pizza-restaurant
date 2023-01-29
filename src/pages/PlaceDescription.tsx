@@ -44,8 +44,16 @@ const PlaceDescription: React.FC<PlaceDescriptionProps> = ({}) => {
               type="radio"
               className="mr-3 appearance-none  w-[14px] h-[14px] rounded-full border outline-none border-[#817f5d] checked:bg-[#dbcc91]"
             />
-            <input type="radio" className="mr-3" />
-            <input type="radio" className="mr-3" />
+            <input
+              checked={false}
+              type="radio"
+              className="mr-3 appearance-none  w-[14px] h-[14px] rounded-full border outline-none border-[#817f5d] checked:bg-[#dbcc91]"
+            />
+            <input
+              checked={false}
+              type="radio"
+              className="mr-3 appearance-none  w-[14px] h-[14px] rounded-full border outline-none border-[#817f5d] checked:bg-[#dbcc91]"
+            />
           </div>
         </div>
         <div className="pt-16 pl-36">
