@@ -78,6 +78,11 @@ const MenuSection: React.FC<MenuSectionProps> = ({}) => {
         <FoodGroup imgURL="pastaPic.jpg" />
         <FoodGroup imgURL="pizzaPic.jpg" right={true} />
       </div>
+      <div className="flex justify-center mx-auto">
+        <button className="px-4 py-2 bg-[#8f875a] uppercase text-white border-2 text-sm border-[#d1c797]">
+          Book a table
+        </button>
+      </div>
     </div>
   );
 };
