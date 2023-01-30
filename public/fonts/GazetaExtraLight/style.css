@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'Gazeta';
-    src: local('Gazeta Extra Light'), local('Gazeta-Extra-Light'),
-        url('GazetaExtraLight.woff2') format('woff2'),
-        url('GazetaExtraLight.woff') format('woff'),
-        url('GazetaExtraLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
-  }
+  font-family: "GazetaLight";
+  src: local("Gazeta Extra Light"), local("Gazeta-Extra-Light"),
+    url("GazetaExtraLight.woff2") format("woff2"),
+    url("GazetaExtraLight.woff") format("woff"),
+    url("GazetaExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}

@@ -36,7 +36,7 @@ const Navbar: React.FC<NavbarProps> = ({}) => {
         </div>
       </div>
       {/* for mobile  */}
-      <div className="md:hidden flex items-center justify-between border ">
+      <div className="md:hidden flex items-center justify-between text-sm uppercase font-semibold text-zinc-900 tracking-tighter text-opacity-70 ">
         <h1 className="text-3xl font-[Gazeta] fixed left-3 top-5">YourLogo</h1>
         <button
           className="flex items-center fixed right-3 top-4"
