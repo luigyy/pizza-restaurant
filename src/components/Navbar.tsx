@@ -37,9 +37,11 @@ const Navbar: React.FC<NavbarProps> = ({}) => {
       </div>
       {/* for mobile  */}
       <div className="md:hidden flex items-center justify-between text-sm uppercase font-semibold text-zinc-900 tracking-tighter text-opacity-70 ">
-        <h1 className="text-3xl font-[Gazeta] fixed left-3 top-5">YourLogo</h1>
+        <h1 className="text-3xl font-[Gazeta] absolute left-3 top-5">
+          YourLogo
+        </h1>
         <button
-          className="flex items-center fixed right-3 top-4"
+          className="flex items-center absolute  right-3 top-4"
           onClick={() => setModal(!modal)}
         >
           {/* <p className="text-2xl font-[Gazeta]">Navigation</p> */}
