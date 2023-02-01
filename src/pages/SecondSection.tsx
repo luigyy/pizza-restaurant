@@ -4,17 +4,17 @@ interface SecondProps {}
 
 const Second: React.FC<SecondProps> = ({}) => {
   return (
-    <div className="min-h-[80vh] w-full  bg-[#363e26] flex">
+    <div className="min-h-[80vh] pb-10 w-full  bg-[#363e26] flex">
       {/* left div  */}
       <div className="h-full md:w-1/2  w-full  font-display">
         <h1 className="md:max-w-[70%] text-center  md:text-left text-3xl font-extrabold text-[#f8f7f7]/90 tracking-wide font-[Gazeta] px-20 pt-20">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </h1>
-        <p className="px-20  max-w-[70%] pt-6 text-[#f8f7f7]/70">
+        <p className="px-20  md:max-w-[70%] w-[85%] pt-6 text-[#f8f7f7]/70">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
           recusandae Lorem ipsum dolor sit amet lore lorem lorem.
         </p>
-        <ul className="pl-36 pt-6 list-[circle] ">
+        <ul className="md:pl-36 pl-10 pt-6 list-[circle] ">
           <div className="flex gap-6 items-center md:max-w-[80%]">
             <input
               type="radio"

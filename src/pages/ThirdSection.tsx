@@ -5,7 +5,7 @@ interface ThirdSectionProps {}
 const ThirdSection: React.FC<ThirdSectionProps> = ({}) => {
   return (
     <div className="md:h-[110vh] h-[180vh] md:mb-0 mb-96 ">
-      <h1 className="max-w-[45%] mx-auto pt-28 font-[Gazeta] text-center text-4xl font-medium text-zinc-900">
+      <h1 className="md:max-w-[45%] w-[80%] mx-auto pt-28 font-[Gazeta] text-center text-4xl font-medium text-zinc-900">
         Lorem ipsum dolor sit amet . dar Etienne{" "}
         <span className="text-[#827c29]">consectecteur</span> mollitia .
       </h1>
