@@ -10,15 +10,17 @@ const FoodGroup: React.FC<FoodGroupProps> = ({ imgURL, right }) => {
     <div className="mb-32 ">
       <img
         src={imgURL}
-        className={`absolute w-1/4 ${right ? "right-0" : ""}`}
+        className={`absolute md:w-1/4 w-1/2  ${
+          right ? " md:left-0 -left-12" : "md:right-0 -right-12"
+        }`}
         alt=""
       />
-      <FoodType />
+      <FoodType right={right} />
       <div className="[&>*:nth-child(1)]:border-t-2">
-        <DishComponent />
-        <DishComponent />
-        <DishComponent />
-        <DishComponent />
+        <DishComponent right={right} />
+        <DishComponent right={right} />
+        <DishComponent right={right} />
+        <DishComponent right={right} />
       </div>
     </div>
   );
@@ -26,10 +28,16 @@ const FoodGroup: React.FC<FoodGroupProps> = ({ imgURL, right }) => {
 
 //
 //
-interface FoodTypeProps {}
-const FoodType: React.FC<FoodTypeProps> = () => {
+interface FoodTypeProps {
+  right?: boolean;
+}
+const FoodType: React.FC<FoodTypeProps> = ({ right }) => {
   return (
-    <div className="flex flex-col w-1/4 mx-auto relative justify-center tracking-wide mb-14">
+    <div
+      className={`flex flex-col w-1/4 md:mx-auto ${
+        right ? "ml-auto mr-5" : "mr-auto ml-5"
+      } relative justify-center tracking-wide mb-14`}
+    >
       <img
         src="https://previews.123rf.com/images/natalyalevish/natalyalevish1801/natalyalevish180100005/93484510-ilustra%C3%A7%C3%A3o-tirada-m%C3%A3o-bonita-do-alimento-de-dedo-do-vetor-bruschetta-em-imagens-detalhadas-do-estilo.jpg"
         className="w-36 mx-auto "
@@ -41,11 +49,17 @@ const FoodType: React.FC<FoodTypeProps> = () => {
 };
 
 //
-interface DishComponentProps {}
+interface DishComponentProps {
+  right?: boolean;
+}
 
-const DishComponent: React.FC<DishComponentProps> = () => {
+const DishComponent: React.FC<DishComponentProps> = ({ right }) => {
   return (
-    <div className="w-[30%] mx-auto py-5 border-b-2  ">
+    <div
+      className={`md:w-[30%] w-1/2 md:mx-auto ${
+        right ? "ml-auto mr-5" : "ml-5"
+      }  py-5 border-b-2  `}
+    >
       {/* title and price */}
       <div className="font-[Gazeta] flex justify-between text-2xl text-black/95 ">
         <span>Bruschetta</span>
@@ -71,7 +85,7 @@ interface MenuSectionProps {}
 
 const MenuSection: React.FC<MenuSectionProps> = ({}) => {
   return (
-    <div className="pt-16">
+    <div className="sm:pt-16 pt-48">
       <div className="w-full min-h-screen ">
         <FoodGroup imgURL="bruschettaPic.jpg" />
         <FoodGroup imgURL="saladPic.jpg" right={true} />
