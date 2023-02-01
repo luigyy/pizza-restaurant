@@ -10,21 +10,21 @@ const ThirdSection: React.FC<ThirdSectionProps> = ({}) => {
         <span className="text-[#827c29]">consectecteur</span> mollitia .
       </h1>
       {/* photos div */}
-      <div className="flex w-full h-[40%]  justify-center pt-10">
-        <div className="w-[25%] h-full ">
-          <div className=" w-full h-full bg-[url('ingredients.jpg')] bg-cover"></div>
+      <div className="flex md:flex-row flex-col w-full md:gap-0 gap-32 md:h-[40%] h-full  justify-center pt-10">
+        <div className="md:w-[25%] w-[70%] h-full md:mx-0 mx-auto">
+          <div className=" w-full h-full bg-[url('ingredients.jpg')] bg-cover bg-center "></div>
           <h1 className="text-center pt-10 text-lg text-zinc-700/90">
             Lorem, ipsum dolor.
           </h1>
         </div>
-        <div className="w-[25%] h-full ">
-          <div className=" w-full h-full bg-[url('chef.jpg')] bg-cover"></div>
+        <div className="md:w-[25%] w-[70%] h-full md:mx-0 mx-auto">
+          <div className=" w-full h-full bg-[url('chef.jpg')] bg-cover bg-center "></div>
           <h1 className="text-center pt-10 text-lg text-zinc-700/90">
             Lorem, ipsum dolor.
           </h1>
         </div>
-        <div className="w-[25%] hidden md:inline h-full ">
-          <div className=" w-full h-full bg-[url('pizza-oven.jpg')] bg-cover"></div>
+        <div className="md:w-[25%] w-[70%] h-full md:mx-0 mx-auto">
+          <div className=" w-full h-full bg-[url('pizza-oven.jpg')] bg-cover bg-center "></div>
           <h1 className="text-center pt-10 text-lg text-zinc-800/90">
             Lorem, ipsum dolor.
           </h1>
