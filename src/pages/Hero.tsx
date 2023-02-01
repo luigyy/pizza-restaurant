@@ -6,7 +6,7 @@ interface HeroProps {}
 
 const Hero: React.FC<HeroProps> = ({}) => {
   return (
-    <div className="bg-white md:h-[110vh] h-[80vh] w-full ">
+    <div className="bg-white md:h-[100vh] h-[80vh] w-full ">
       <Navbar />
       <img
         src="fork.png"
