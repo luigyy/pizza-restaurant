@@ -48,7 +48,7 @@ const Second: React.FC<SecondProps> = ({}) => {
         </ul>
       </div>
       {/* right div  */}
-      <div className="relative h-full w-1/2 ">
+      <div className="hidden md:inline relative h-full w-1/2 ">
         <div className="absolute w-full border-2h-full right-5 -top-10">
           <img src="mountain.jpg" alt="" />
         </div>

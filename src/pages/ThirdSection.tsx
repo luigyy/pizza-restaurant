@@ -23,7 +23,7 @@ const ThirdSection: React.FC<ThirdSectionProps> = ({}) => {
             Lorem, ipsum dolor.
           </h1>
         </div>
-        <div className="w-[25%] h-full ">
+        <div className="w-[25%] hidden md:inline h-full ">
           <div className=" w-full h-full bg-[url('pizza-oven.jpg')] bg-cover"></div>
           <h1 className="text-center pt-10 text-lg text-zinc-800/90">
             Lorem, ipsum dolor.
