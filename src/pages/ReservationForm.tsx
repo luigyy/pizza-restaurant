@@ -4,7 +4,7 @@ interface ReservationFormProps {}
 
 const ReservationForm: React.FC<ReservationFormProps> = ({}) => {
   return (
-    <div className="border border-[#8d8a5b]/80 w-[70%] mt-20 mx-auto h-80 px-16">
+    <div className="border border-[#8d8a5b]/80 md:w-[70%] w-[90%] mt-20 mx-auto md:h-80 h-80 px-16">
       <h1 className="font-[Gazeta] text-center text-3xl pt-10">
         Make a Reserve
       </h1>

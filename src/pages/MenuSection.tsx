@@ -85,7 +85,7 @@ interface MenuSectionProps {}
 
 const MenuSection: React.FC<MenuSectionProps> = ({}) => {
   return (
-    <div className="sm:pt-16 pt-48">
+    <div className="sm:pt-16 pt-48 relative overflow-hidden ">
       <div className="w-full min-h-screen ">
         <FoodGroup imgURL="bruschettaPic.jpg" />
         <FoodGroup imgURL="saladPic.jpg" right={true} />
