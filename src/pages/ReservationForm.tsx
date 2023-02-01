@@ -39,7 +39,10 @@ const ReservationForm: React.FC<ReservationFormProps> = ({}) => {
           className="md:w-1/3 w-[40%]  border-b-2 border-zinc-300/90 px-1 text-zinc-700"
         />
       </div>
-      <div className="flex justify-center mx-auto md:pt-16 pt-28 items-center">
+      <div
+        className="flex justify-center mx-auto md:pt-16 pt-28
+       items-center"
+      >
         <button className=" bg-[#8e875d] uppercase text-white py-2 px-7 text-sm border-2 border-[#c0b281] ">
           Book a table
         </button>

@@ -36,7 +36,7 @@ const PlaceDescription: React.FC<PlaceDescriptionProps> = ({}) => {
               dolorum veniam. Sed nam quisquam id culpa sequi suscipit, dolore
               officiis harum. Amet temporibus atque inventore!
             </p>
-            <p className="pt-7 text-sm font-display text-zinc-700">
+            <p className="pt-7 text-sm  font-display text-zinc-700">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
               explicabo harum repudiandae aut consectetur dolorum, dolore vero
               aliquid ullam. Excepturi fugiat molestiae perspiciatis nulla
