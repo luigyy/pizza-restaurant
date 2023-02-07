@@ -9,7 +9,7 @@ const Hero: React.FC<HeroProps> = ({}) => {
     <div className="bg-white md:h-[100vh] h-[80vh] w-full ">
       <Navbar />
       <img
-        src="fork.png"
+        src="tenedor hojitas.png"
         alt=""
         className="md: child md:w-[500px] md:max-w-[500px] sm:max-w-[350px] max-w-[300px] w-3/4 mx-auto "
       />
