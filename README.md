@@ -1,2 +1,2 @@
 # restaurant-website
-a template website for a restaurant.
+a template website for a restaurant
